@@ -22,7 +22,9 @@
   },
   "dependencies": {
     "config": "^1.30.0",
+    "dotenv": "^5.0.1",
     "keymirror": "^0.1.1",
-    "koa": "^2.5.1"
+    "koa": "^2.5.1",
+    "mongoose": "^5.0.17"
   }
 }
