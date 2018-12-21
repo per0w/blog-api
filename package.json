@@ -21,6 +21,8 @@
     "nodemon": "^1.17.3"
   },
   "dependencies": {
+    "config": "^1.30.0",
+    "keymirror": "^0.1.1",
     "koa": "^2.5.1"
   }
 }
