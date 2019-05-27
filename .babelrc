@@ -1,9 +1,27 @@
 {
     "presets": [
-        "env",
-        "stage-0"
+        "@babel/preset-typescript",
+        [
+            "@babel/env",
+            {
+                "modules": "commonjs",
+                "targets": {
+                    "node": "current"
+                }
+            }
+        ]
     ],
     "plugins": [
-        "transform-async-to-generator"
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-syntax-dynamic-import",
+        [
+            "module-resolver",
+            {
+                "root": ["."],
+                "alias": {
+                    "app": "./app",
+                }
+            }
+        ]
     ]
 }

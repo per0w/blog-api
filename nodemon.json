@@ -1,0 +1,6 @@
+{
+    "watch": ["app"],
+    "ext": "ts",
+    "ignore": ["__tests__/**/*.spec.ts"],
+    "exec": "yarn start"
+}
